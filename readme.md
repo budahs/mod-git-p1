@@ -27,7 +27,7 @@ modificador --hard, los cambios se han reflejado en el working copy. Por lo
 tanto, al "rehacer" el último commit hay que descartar los cambios en el 
 *stage*. Lo logramos con:
 
->git checkout -- git-nuestro.md
+>```git checkout -- git-nuestro.md```
 
 ## El marge del paso 13, ¿causó algún conflicto? ¿Por qué?
 
@@ -126,4 +126,4 @@ Identificamos el hash del commit. Lo podemos identificar facilmente porqué
 el mensaje del commit que buscamos es "Añadimos un título al archivo 
 git-nuestro.md". A continuación, nos colocamos sobre el con:
 
->```git checkout <hash_del_commit>
+>```git checkout <hash_del_commit>```
